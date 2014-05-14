@@ -53,3 +53,6 @@ for i in range(liczbaFigur):
 
 poleFigur = round(poleFigur, 2)
 print(poleFigur)
+
+poleFigur = round(poleFigur, 0)
+print(poleFigur)
