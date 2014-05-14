@@ -24,7 +24,10 @@ class Trojkat():
         p = (1 / 2) * (self.bok1 + self.bok2 + self.bok3)
         pole = (p * (p - self.bok1) * (p - self.bok2) * (p - self.bok3)) ** (1 / 2)
         return pole
-    
+
+class Fugura():
+    def __init__(self):
+        
 try:
     liczbaFigur = int(input())
 except ValueError as err:
