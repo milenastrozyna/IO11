@@ -28,6 +28,7 @@ class Trojkat():
 class Fugura():
     def __init__(self):
         
+
 try:
     liczbaFigur = int(input())
 except ValueError as err:
@@ -57,8 +58,4 @@ for i in range(liczbaFigur):
 poleFigur = round(poleFigur, 2)
 print(poleFigur)
 
-poleFigur1 = round(poleFigur, 0)
-print(poleFigur1)
 
-poleFigur2 = round(poleFigur, 3)
-print(poleFigur2)
